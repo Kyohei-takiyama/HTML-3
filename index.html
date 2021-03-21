@@ -1,16 +1,82 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>COACHTECH</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社TECH</title>
 </head>
-
 <body>
-  <!-- 以下の内容を追加します -->
-  <p>cssテスト</p>
-</body>
+  <header>
+    <h1>株式会社TECH</h1>
 
+    <nuv>
+      <ul>
+        <li><a href="#">ホーム</a></li>
+        <li><a href="#">企業情報</a></li>
+        <li><a href="#">会社概要</a></li>
+        <li><a href="#">よくある質問</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+    </nuv>
+  </header>
+  <main>
+    <img src="mv.png" alt="画像">
+
+    <div>
+      <h3>最新のテクノロジーで社会問題を解決</h3>
+    </div>
+    <div>
+      <h2>会社概要</h2>
+    </div>
+
+    <table>
+      <tr>
+        <th>会社名</th>
+        <td>株式会社TECH</td>
+      </tr>
+      <tr>
+        <th>代表者</th>
+        <td>山田　太郎</td>
+      </tr>
+      <tr>
+        <th>所在地</th>
+        <td>東京都渋谷区神宮前</td>
+      </tr>
+      <tr>
+        <th>設立</th>
+        <td>2019/07/17</td>
+      </tr>
+      <tr>
+        <th>従業員数</th>
+        <td>100人</td>
+      </tr>
+      <tr>
+        <th>資本金</th>
+        <td>1000万円</td>
+      </tr>
+    </table>
+
+<form action="#" method="POST">
+  <h2>お問い合わせ</h2>
+  <label for="company">会社名 </label><input type="text" id="company"><br>
+
+  <label for="name">お名前 </label><input type="text" id="name"><br>
+
+  <label for="mail">メールアドレス </label><input type="text" id="mail"><br>
+
+  <label for="contact">お問い合わせ内容</label>
+  <textarea name="contact" cols="80" rows="10"></textarea><br>
+
+  <input type="submit" value="お申し込み">
+</form>
+
+</main>
+
+
+
+  <footer>
+    <small>&copy 2020 TECH inc.</small>
+  </footer>
+</body>
 </html>
